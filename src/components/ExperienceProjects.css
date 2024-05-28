@@ -1,33 +1,33 @@
-#experience-projects {
-    padding: 20px;
-  }
-  
-  .experience-item {
-    position: relative;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .experience-item:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .popup-summary {
-    position: absolute;
-    top: 10px;
-    left: 100%;
-    width: 200px;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .experience-item:hover .popup-summary {
-    opacity: 1;
-  }
-  
+/* ExperienceProjects.css */
+
+.experience-projects {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.experience-item h3 {
+  color: #98142a;
+}
+
+.experience-item p {
+  font-weight: bold;
+}
+
+.experience-item ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.popup-summary {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

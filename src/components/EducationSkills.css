@@ -1,0 +1,21 @@
+/* EducationSkills.css */
+
+.education-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .education, .skills {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #98142a;
+  }
+  
